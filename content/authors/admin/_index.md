@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Eng.
+title:
 
 # Name pronunciation (optional)
 name_pronunciation: Giacomo Golluccio
@@ -56,7 +56,7 @@ education:
     date_start: 2019-11-01
     date_end: 2023-06-08
     summary: |
-      TBC
+      Thesis entitled Robot Planning and Control combined with Machine Learning Techniques - Supervisors: Prof. A. Marino and Prof. G. Antonelli
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -65,18 +65,11 @@ education:
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc Computer and Telecommunications Engineering 
     institution: University of Cassino and Southern Lazio
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Autonomous Driving Engineer - Robot Perception
     company_name: Stellantis
@@ -100,7 +93,39 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+  - position: Autonomous Driving Engineer - Robot Perception
+    company_name: Stellantis
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Visiting Researcher
+    company_name: KUKA Deutschland GmbH
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-01-01
+    date_end: 2022-09-01
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit   
+  - position: Researcher Fellow - Multirobot Control
+    company_name: University of Cassino and Southern Lazio in collaboration with Italian Research Aerospace Center (CIRA)
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-01-01
+    date_end: 2019-10-31
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit   
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -152,14 +177,14 @@ awards:
     url: 
     date: '2023-11-25'
     awarder: 
-    icon: bmw
+    icon: 
     summary: |
       TBC
   - title: SVF
     url: 
     date: '2023-11-25'
     awarder: 
-    icon: bmw
+    icon: 
     summary: |
       TBC
 ---

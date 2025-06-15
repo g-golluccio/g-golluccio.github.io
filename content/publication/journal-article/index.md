@@ -1,8 +1,10 @@
 ---
-title: "An example journal article"
+title: "Deep Learning-based Collision Detection Framework for Robot Tasks in Clutter"
 authors:
-- admin
-- Robert Ford
+- Giacomo Golluccio
+- Daniele Di Vito
+- Gianluca Antonelli
+- Alessandro Marino
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -10,7 +12,7 @@ date: "2015-09-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-05-15T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,13 +20,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "Robotica"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: In this work, the problem of reliably checking collisions between robot manipulators and the surrounding environment in short time for tasks, such as replanning and object grasping in clutter, is addressed. Geometric approaches are usually applied in this context; however, they can result not suitable in highly time-constrained applications. The purpose of this paper is to present a learning-based method able to outperform geometric approaches in clutter. The proposed approach uses a neural network (NN) to detect collisions online by performing a classification task on the input represented by the depth image or point cloud containing the robot gripper projected into the application scene. Specifically, several state-of-the-art NN architectures are considered, along with some customization to tackle the problem at hand. These approaches are compared to identify the model that achieves the highest accuracy while containing the computational burden. The analysis shows the feasibility of the robot collision checker based on a deep learning approach. In fact, such approach presents a low collision detection time, of the order of milliseconds on the selected hardware, with acceptable accuracy. Furthermore, the computational burden is compared with state-of-the-art geometric techniques. The entire work is based on an industrial case study involving a KUKA Agilus industrial robot manipulator at the Technology & Innovation Center of KUKA Deutschland GmbH, Germany. Further validation is performed with the Amazon Robotic Manipulation Benchmark (ARMBench) dataset as well, in order to corroborate the reported findings
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags:
 - Source Themes
@@ -33,8 +35,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://www.cambridge.org/core/journals/robotica/article/abs/deep-learningbased-collision-detection-framework-for-robot-tasks-in-clutter/FE07A6D9E4E35A0116A76AEB26C6E6F0
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
