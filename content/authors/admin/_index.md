@@ -177,4 +177,10 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Giacomo Golluccio is an Autonomous Driving Engineer at Stellantis, working in the Perception and Sensor Fusion team. He holds a PhD in Robotics and AI from the University of Cassino and Southern Lazio, where he focused on combining robot planning and control with machine learning techniques.
+
+He earned both his Bachelor’s and Master’s degrees in Computer Engineering from the same university.
+
+In 2022, he was a Visiting Researcher at KUKA in Germany, working on machine learning for robotic grasping and collision detection. In 2019, he was a Research Fellow on a project involving decentralized control of aerial vehicles.
+
+His interests include autonomous systems, robotics, and artificial intelligence.
