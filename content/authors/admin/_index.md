@@ -79,9 +79,10 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Worked in the Perception and Sensor Fusion team for L2+ and L3 autonomous driving systems
+      - Developed perception algorithms leveraging deep learning approaches
+      - Conducted large-scale evaluation of perception modules
+
   - position: Autonomous Driving Engineer - Robot Perception
     company_name: DXC Luxoft (External for Stellantis)
     company_url: ''
@@ -90,9 +91,7 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Worked in the Perception and Sensor Fusion team for L2+ and L3 autonomous driving systems
   - position: Visiting Researcher
     company_name: KUKA Deutschland GmbH
     company_url: ''
@@ -104,7 +103,7 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit   
-  - position: Researcher Fellow - Multirobot Control
+  - position: Researcher Fellow - Multi-Robot Control for Crowd for the Environment (C4E) Project
     company_name: University of Cassino and Southern Lazio in collaboration with Italian Research Aerospace Center (CIRA)
     company_url: ''
     company_logo: ''
@@ -112,9 +111,9 @@ work:
     date_end: 2019-10-31
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit   
+      - Developed distributed control algorithms for multi-robot systems
+      - Managed the project from a delivery and project management perspective
+
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
