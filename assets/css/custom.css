@@ -1,11 +1,11 @@
-/* Testo generale meno marcato (nero leggero) */
+/* Testo generale su sfondo chiaro */
 body, h1, h2, h3, h4, h5, h6, p, span, div, li, a {
   color: #333 !important;
   font-weight: normal;
 }
 
-/* Icone dei social link in azzurro */
-a[href*="mailto"], /* email */
+/* Icone dei social link */
+a[href*="mailto"],
 a[href*="linkedin.com"],
 a[href*="github.com"],
 a[href*="instagram.com"],
@@ -14,8 +14,6 @@ a[href*="scholar.google.com"],
 a[href*="orcid.org"] {
   color: #0099ff !important;
 }
-
-/* Al passaggio del mouse, un azzurro più scuro */
 a[href*="mailto"]:hover,
 a[href*="linkedin.com"]:hover,
 a[href*="github.com"]:hover,
@@ -26,38 +24,40 @@ a[href*="orcid.org"]:hover {
   color: #0077cc !important;
 }
 
-/* ✅ Testo grigio chiarissimo in zone con sfondo nero */
-section[style*="background-color: #000"],
-div[style*="background-color: #000"],
-.bg-black,
-.bg-dark,
-.dark-mode,
-section.bg-dark,
-div.bg-dark {
+/* ✅ Colore testo grigio chiarissimo su sfondo nero */
+.bg-black *,
+.bg-dark *,
+section[style*="background-color: #000"] *,
+div[style*="background-color: #000"] * {
   color: #f0f0f0 !important;
 }
 
-/* ✅ Link leggibili anche su fondo scuro */
+/* ✅ Colore link su sfondo nero */
+.bg-black a,
+.bg-dark a,
 section[style*="background-color: #000"] a,
-.bg-dark a {
+div[style*="background-color: #000"] a {
   color: #aad2ff !important;
 }
 
-/* ✅ Pulsante Download CV con sfondo grigio e testo coerente */
-.btn-download,
-a.btn-download {
+/* ✅ Pulsante Download CV con sfondo grigio e testo scuro */
+a[href*="cv"],
+a.download-cv,
+button.download-cv {
   background-color: #ddd !important;
   color: #333 !important;
-  border: none;
-  font-weight: normal;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  border-radius: 4px;
+  border: none !important;
+  padding: 0.6em 1.2em !important;
+  font-weight: normal !important;
+  border-radius: 5px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
 }
 
-/* Hover effetto leggero per il pulsante */
-.btn-download:hover,
-a.btn-download:hover {
+/* Hover sul tasto Download */
+a[href*="cv"]:hover,
+a.download-cv:hover,
+button.download-cv:hover {
   background-color: #ccc !important;
   color: #111 !important;
 }
