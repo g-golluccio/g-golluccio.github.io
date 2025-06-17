@@ -1,5 +1,5 @@
 ---
-title: "Deep Learning-based Collision Detection Framework for Robot Tasks in Clutter"
+title: "TBC"
 authors:
 - Giacomo Golluccio
 - Daniele Di Vito
@@ -23,7 +23,7 @@ publication_types: ["article-journal"]
 publication: "Robotica"
 publication_short: ""
 
-abstract: In this work, the problem of reliably checking collisions between robot manipulators and the surrounding environment in short time for tasks, such as replanning and object grasping in clutter, is addressed. Geometric approaches are usually applied in this context; however, they can result not suitable in highly time-constrained applications. The purpose of this paper is to present a learning-based method able to outperform geometric approaches in clutter. The proposed approach uses a neural network (NN) to detect collisions online by performing a classification task on the input represented by the depth image or point cloud containing the robot gripper projected into the application scene. Specifically, several state-of-the-art NN architectures are considered, along with some customization to tackle the problem at hand. These approaches are compared to identify the model that achieves the highest accuracy while containing the computational burden. The analysis shows the feasibility of the robot collision checker based on a deep learning approach. In fact, such approach presents a low collision detection time, of the order of milliseconds on the selected hardware, with acceptable accuracy. Furthermore, the computational burden is compared with state-of-the-art geometric techniques. The entire work is based on an industrial case study involving a KUKA Agilus industrial robot manipulator at the Technology & Innovation Center of KUKA Deutschland GmbH, Germany. Further validation is performed with the Amazon Robotic Manipulation Benchmark (ARMBench) dataset as well, in order to corroborate the reported findings
+abstract: TBC
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -35,7 +35,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.cambridge.org/core/journals/robotica/article/abs/deep-learningbased-collision-detection-framework-for-robot-tasks-in-clutter/FE07A6D9E4E35A0116A76AEB26C6E6F0
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
