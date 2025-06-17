@@ -1,33 +1,11 @@
-/* --- Testo generale in sezioni chiare: nero non troppo marcato --- */
-body, section, div, article, p, h1, h2, h3, h4, h5, h6, span, li {
-  color: #333;
+/* Testo generale meno marcato (nero leggero) */
+body, h1, h2, h3, h4, h5, h6, p, span, div, li, a {
+  color: #333 !important;
   font-weight: normal;
 }
 
-/* --- Testo nelle sezioni scure: grigio chiaro --- */
-section,
-div,
-article {
-  background-color: #000;
-}
-
-section[style*="background-color: #000"],
-section.bg-dark,
-.bg-black,
-.dark,
-.dark-mode,
-.dark-section {
-  color: #ccc !important;
-}
-
-/* --- Titoli in sezioni scure più chiari --- */
-section.bg-dark h1, section.bg-dark h2,
-.dark-mode h1, .dark-mode h2 {
-  color: #ddd !important;
-}
-
-/* --- Icone social in azzurro ovunque --- */
-a[href*="mailto"],
+/* Icone dei social link in azzurro */
+a[href*="mailto"], /* email */
 a[href*="linkedin.com"],
 a[href*="github.com"],
 a[href*="instagram.com"],
@@ -37,6 +15,7 @@ a[href*="orcid.org"] {
   color: #0099ff !important;
 }
 
+/* Al passaggio del mouse, un azzurro più scuro */
 a[href*="mailto"]:hover,
 a[href*="linkedin.com"]:hover,
 a[href*="github.com"]:hover,
@@ -47,7 +26,18 @@ a[href*="orcid.org"]:hover {
   color: #0077cc !important;
 }
 
-/* Se le icone sono SVG, forza il riempimento */
-a svg {
-  fill: #0099ff !important;
+/* ✅ Testo grigio chiaro in zone con sfondo nero */
+section[style*="background-color: #000"],
+div[style*="background-color: #000"],
+.bg-black,
+.bg-dark,
+.dark-mode,
+section.bg-dark,
+div.bg-dark {
+  color: #ccc !important;
+}
+
+section[style*="background-color: #000"] a,
+.bg-dark a {
+  color: #aad2ff !important;  /* link leggibili anche su fondo scuro */
 }
