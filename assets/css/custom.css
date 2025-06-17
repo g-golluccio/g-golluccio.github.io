@@ -26,7 +26,7 @@ a[href*="orcid.org"]:hover {
   color: #0077cc !important;
 }
 
-/* ✅ Testo grigio chiaro in zone con sfondo nero */
+/* ✅ Testo grigio chiarissimo in zone con sfondo nero */
 section[style*="background-color: #000"],
 div[style*="background-color: #000"],
 .bg-black,
@@ -34,10 +34,30 @@ div[style*="background-color: #000"],
 .dark-mode,
 section.bg-dark,
 div.bg-dark {
-  color: #ccc !important;
+  color: #f0f0f0 !important;
 }
 
+/* ✅ Link leggibili anche su fondo scuro */
 section[style*="background-color: #000"] a,
 .bg-dark a {
-  color: #aad2ff !important;  /* link leggibili anche su fondo scuro */
+  color: #aad2ff !important;
+}
+
+/* ✅ Pulsante Download CV con sfondo grigio e testo coerente */
+.btn-download,
+a.btn-download {
+  background-color: #ddd !important;
+  color: #333 !important;
+  border: none;
+  font-weight: normal;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Hover effetto leggero per il pulsante */
+.btn-download:hover,
+a.btn-download:hover {
+  background-color: #ccc !important;
+  color: #111 !important;
 }
