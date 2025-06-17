@@ -1,0 +1,27 @@
+/* Testo generale meno marcato (nero leggero) */
+body, h1, h2, h3, h4, h5, h6, p, span, div, li, a {
+  color: #333 !important;
+  font-weight: normal;
+}
+
+/* Icone dei social link in azzurro */
+a[href*="mailto"], /* email */
+a[href*="linkedin.com"],
+a[href*="github.com"],
+a[href*="instagram.com"],
+a[href*="twitter.com"],
+a[href*="scholar.google.com"],
+a[href*="orcid.org"] {
+  color: #0099ff !important;
+}
+
+/* Al passaggio del mouse, un azzurro più scuro */
+a[href*="mailto"]:hover,
+a[href*="linkedin.com"]:hover,
+a[href*="github.com"]:hover,
+a[href*="instagram.com"]:hover,
+a[href*="twitter.com"]:hover,
+a[href*="scholar.google.com"]:hover,
+a[href*="orcid.org"]:hover {
+  color: #0077cc !important;
+}
