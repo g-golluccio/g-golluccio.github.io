@@ -100,9 +100,9 @@ work:
     date_end: 2022-09-01
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit   
+      - Worked in the Technology & Innovation Centre (TIC)
+      - Designed and developed perception algorithms for robot collision detection to speed up the convergence of the motion planning
+      - Managed experiments with KUKA Agilus robot manipulator
   - position: Researcher Fellow - Multi-Robot Control for Crowd for the Environment (C4E) Project
     company_name: University of Cassino and Southern Lazio in collaboration with Italian Research Aerospace Center (CIRA)
     company_url: ''
