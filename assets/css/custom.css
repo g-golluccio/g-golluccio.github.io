@@ -1,10 +1,9 @@
-/* Testo generale su sfondo chiaro */
-body, h1, h2, h3, h4, h5, h6, p, span, div, li, a {
+/* Testo normale in tema chiaro */
+body, p, span, li, div, h1, h2, h3, h4, h5, h6 {
   color: #333 !important;
-  font-weight: normal;
 }
 
-/* Icone dei social link (su sfondo chiaro) */
+/* Social link in azzurro */
 a[href*="mailto"],
 a[href*="linkedin.com"],
 a[href*="github.com"],
@@ -12,7 +11,7 @@ a[href*="instagram.com"],
 a[href*="twitter.com"],
 a[href*="scholar.google.com"],
 a[href*="orcid.org"] {
-  color: #0099ff !important;
+  color: #0077cc !important;
 }
 a[href*="mailto"]:hover,
 a[href*="linkedin.com"]:hover,
@@ -21,46 +20,48 @@ a[href*="instagram.com"]:hover,
 a[href*="twitter.com"]:hover,
 a[href*="scholar.google.com"]:hover,
 a[href*="orcid.org"]:hover {
-  color: #0077cc !important;
+  color: #005fa3 !important;
 }
 
-/* ✅ Colore testo bianco su sfondo nero */
+/* ✅ TESTO bianco su sfondo nero */
 .bg-black *,
 .bg-dark *,
-section[style*="background-color: #000"] *,
-div[style*="background-color: #000"] * {
+section.bg-black *,
+section.bg-dark *,
+section[style*="background-color: black"] *,
+div[style*="background-color: black"] * {
   color: #ffffff !important;
 }
 
-/* ✅ Link su sfondo nero */
+/* ✅ LINK bianco su sfondo nero */
 .bg-black a,
 .bg-dark a,
-section[style*="background-color: #000"] a,
-div[style*="background-color: #000"] a {
+section.bg-black a,
+section.bg-dark a {
   color: #ffffff !important;
 }
 .bg-black a:hover,
 .bg-dark a:hover,
-section[style*="background-color: #000"] a:hover,
-div[style*="background-color: #000"] a:hover {
+section.bg-black a:hover,
+section.bg-dark a:hover {
   color: #dddddd !important;
 }
 
-/* ✅ Pulsante Download CV bianco con testo #333 */
+/* ✅ Pulsante "Download CV" in bianco con testo grigio */
 a[href*="cv"],
 a.download-cv,
 button.download-cv {
   background-color: #ffffff !important;
   color: #333333 !important;
   border: none !important;
-  padding: 0.6em 1.2em !important;
+  padding: 10px 20px !important;
   font-weight: normal !important;
-  border-radius: 5px !important;
+  border-radius: 4px !important;
   text-decoration: none !important;
   display: inline-block !important;
 }
 
-/* Hover sul tasto Download CV */
+/* Hover sul tasto CV */
 a[href*="cv"]:hover,
 a.download-cv:hover,
 button.download-cv:hover {
