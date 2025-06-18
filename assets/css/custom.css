@@ -4,7 +4,7 @@ body, h1, h2, h3, h4, h5, h6, p, span, div, li, a {
   font-weight: normal;
 }
 
-/* Icone dei social link */
+/* Icone dei social link (su sfondo chiaro) */
 a[href*="mailto"],
 a[href*="linkedin.com"],
 a[href*="github.com"],
@@ -24,28 +24,34 @@ a[href*="orcid.org"]:hover {
   color: #0077cc !important;
 }
 
-/* ✅ Colore testo grigio chiarissimo su sfondo nero */
+/* ✅ Colore testo bianco su sfondo nero */
 .bg-black *,
 .bg-dark *,
 section[style*="background-color: #000"] *,
 div[style*="background-color: #000"] * {
-  color: #f0f0f0 !important;
+  color: #ffffff !important;
 }
 
-/* ✅ Colore link su sfondo nero */
+/* ✅ Link su sfondo nero */
 .bg-black a,
 .bg-dark a,
 section[style*="background-color: #000"] a,
 div[style*="background-color: #000"] a {
-  color: #aad2ff !important;
+  color: #ffffff !important;
+}
+.bg-black a:hover,
+.bg-dark a:hover,
+section[style*="background-color: #000"] a:hover,
+div[style*="background-color: #000"] a:hover {
+  color: #dddddd !important;
 }
 
-/* ✅ Pulsante Download CV con sfondo grigio e testo scuro */
+/* ✅ Pulsante Download CV bianco con testo #333 */
 a[href*="cv"],
 a.download-cv,
 button.download-cv {
-  background-color: #ddd !important;
-  color: #0077cc !important;
+  background-color: #ffffff !important;
+  color: #333333 !important;
   border: none !important;
   padding: 0.6em 1.2em !important;
   font-weight: normal !important;
@@ -54,10 +60,10 @@ button.download-cv {
   display: inline-block !important;
 }
 
-/* Hover sul tasto Download */
+/* Hover sul tasto Download CV */
 a[href*="cv"]:hover,
 a.download-cv:hover,
 button.download-cv:hover {
-  background-color: #ccc !important;
-  color: #111 !important;
+  background-color: #f0f0f0 !important;
+  color: #111111 !important;
 }
