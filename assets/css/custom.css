@@ -45,7 +45,7 @@ a[href*="cv"],
 a.download-cv,
 button.download-cv {
   background-color: #ddd !important;
-  color: #333 !important;
+  color: #0077cc !important;
   border: none !important;
   padding: 0.6em 1.2em !important;
   font-weight: normal !important;
