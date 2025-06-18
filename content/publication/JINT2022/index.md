@@ -28,19 +28,19 @@ abstract: This work addresses the problem of retrieving a target object from clu
 # Summary. An optional shortened abstract.
 summary: 
 
-tags: 
+tags: Motion Planning - Task Planning - Reinforcement Learning
 featured: true
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.cambridge.org/core/journals/robotica/article/abs/deep-learningbased-collision-detection-framework-for-robot-tasks-in-clutter/FE07A6D9E4E35A0116A76AEB26C6E6F0
+url_pdf: https://link.springer.com/article/10.1007/s10846-022-01719-9
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: https://link.springer.com/article/10.1007/s10846-022-01719-9
+url_source: 
 url_video: https://www.youtube.com/watch?v=2aTqmWzmiJ8
 
 # Featured image
