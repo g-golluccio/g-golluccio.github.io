@@ -40,7 +40,7 @@ url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: content/publication/RAM2021/robot_traj.mp4
+url_video: /Users/giacomogolluccio/Desktop/Git/g-golluccio.github.io/content/publication/RAM2021/robot_traj.mp4
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
