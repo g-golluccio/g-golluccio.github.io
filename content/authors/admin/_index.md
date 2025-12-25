@@ -59,7 +59,7 @@ education:
       Thesis entitled Robot Planning and Control combined with Machine Learning Techniques - Supervisors: Prof. A. Marino and Prof. G. Antonelli
     button:
       text: 'Read Thesis'
-      url: https://iris.unicas.it/retrieve/6c548b20-5ed3-4bd6-9dff-b0b838941bcf/Tesi_dottorato_Unicas_35_GOLLUCCIO_Giacomo.pdf
+      url: https://iris.unicas.it/retrieve/6c548b20-5ed3-4bd6-9dff-b0b838941bcf/Tesi_dottorato_Unicas_35_GOLLUCCIO_Giacomo.pdfppoiu8i9
   - area: MSc Computer Engineering 
     institution: University of Cassino and Southern Lazio
     date_start: 2016-01-01
